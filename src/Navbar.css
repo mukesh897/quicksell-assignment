@@ -1,0 +1,52 @@
+/* src/Navbar.css */
+.navbar {
+    display: flex;
+    justify-content: flex-start;
+    padding: 1rem;
+  }
+  
+  .navbar-container {
+    position: relative;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropbtn {
+    background-color: #fff;
+    border: 1px solid #e0e0e0 !important;
+    color: #333;
+    padding: 0.5rem;
+    font-size: 16px;
+    border-radius: 2px;
+    cursor: pointer;
+  }
+  
+  .dropdown-content {
+    display: none;
+    padding: 0.5rem;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content.show {
+    display: block;
+  }
+  
+  .dropdown-content select {
+    margin-right: 1rem;
+    padding: 0.5rem;
+    font-size: 16px;
+  }
+   .second {
+    margin-top: 10px;
+   }
+  
+   .dd {
+        vertical-align: middle;
+     margin-left: 5px
+   }    

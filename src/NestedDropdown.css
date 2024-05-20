@@ -1,0 +1,43 @@
+/* src/NestedDropdown.css */
+.nested-dropdown {
+    position: relative;
+  }
+  
+  .dropdown-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+  }
+  
+  .dropdown-button:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .nested-dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    z-index: 1000;
+  }
+  
+  .dropdown-item {
+    padding: 8px 16px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    text-align: left;
+    width: 100%;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #e0e0e0;
+  }
+  

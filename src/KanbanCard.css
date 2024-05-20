@@ -1,0 +1,51 @@
+/* src/KanbanCard.css */
+.kanban-card {
+    background: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 10px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .ticket-id {
+    font-weight: 500;
+    color: #555;
+  }
+  
+  .icon-container .icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+  
+  .card-body {
+    margin-top: 10px;
+  }
+  
+  .ticket-title {
+    font-size: 1em;
+    font-weight: 500;
+    margin: 5px 0;
+  }
+  
+  .ticket-tags {
+    display: flex;
+    gap: 5px;
+    margin-top: 20px;
+  }
+  
+  .ticket-tag {
+    background: #eee;
+    border-radius: 3px;
+    padding: 2px 5px;
+    font-size: 0.9em;
+    color: #555;
+  }
+  
